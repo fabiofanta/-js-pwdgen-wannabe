@@ -7,3 +7,4 @@ var year = date.getFullYear();
 // document.getElementById('text').innerHTML = name + surname + favouriteColor + year;
 // document.getElementById('text').innerHTML = name + ";" + surname + ";" + favouriteColor + ";" + year;
 document.getElementById('text').innerHTML = name + ";" + surname + ";" + favouriteColor + ";" + (year - 2000);
+document.getElementById('text').setAttribute("class","input-box");
