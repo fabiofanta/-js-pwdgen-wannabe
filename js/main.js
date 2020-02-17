@@ -6,4 +6,4 @@ var year = date.getFullYear();
 // document.getElementById('text').innerHTML = name + surname + favouriteColor + 20;
 // document.getElementById('text').innerHTML = name + surname + favouriteColor + year;
 // document.getElementById('text').innerHTML = name + ";" + surname + ";" + favouriteColor + ";" + year;
-document.getElementById('text').innerHTML = name + ";" + surname + ";" + favouriteColor + ";" + year;
+document.getElementById('text').innerHTML = name + ";" + surname + ";" + favouriteColor + ";" + (year - 2000);
